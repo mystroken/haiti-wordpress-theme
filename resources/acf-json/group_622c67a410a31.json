@@ -1,0 +1,73 @@
+{
+    "key": "group_622c67a410a31",
+    "title": "Event's Years",
+    "fields": [
+        {
+            "key": "field_622c6815feb25",
+            "label": "Started at",
+            "name": "started_at",
+            "type": "number",
+            "instructions": "Only the year (forget about the month)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_622c6e4cb07d7",
+            "label": "Ended at",
+            "name": "ended_at",
+            "type": "number",
+            "instructions": "Only the year (forget about the month)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "show_in_graphql": 1,
+    "graphql_field_name": "years",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1647079463
+}

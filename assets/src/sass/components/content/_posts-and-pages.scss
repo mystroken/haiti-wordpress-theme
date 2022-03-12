@@ -1,0 +1,34 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.entry-title {
+	margin-top: 0;
+	font-size: 1.375rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.return-to-shop {
+	text-align: center;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}

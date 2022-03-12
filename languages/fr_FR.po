@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Genese\n"
+"POT-Creation-Date: 2020-12-31 10:28+0100\n"
+"PO-Revision-Date: 2020-12-31 10:33+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page est introuvable."
+
+#: 404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Il semble qu'il n'y ait rien par ici, essayez peut-être un des liens ci-"
+"dessous ou une recherche ?"
+
+#: 404.php:26
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Tentez de regarder dans les archives mensuelles. %1$s"
+
+#. translators: %s: post date.
+#: app/inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#. translators: %s: post author.
+#: app/inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: app/inc/template-tags.php:63
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: app/inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: app/inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: app/inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Étiqueté %1$s"
+
+#. translators: %s: post title
+#: app/inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laisser un commentaire <span class=\"screen-reader-text\">sur %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: app/inc/template-tags.php:100 template-parts/content-homepage.php:52
+#: template-parts/content-page.php:45
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
+
+#: app/inc/woocommerce.php:186 header.php:54
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+#: app/inc/woocommerce.php:187 header.php:55
+msgid "Cart"
+msgstr "Panier"
+
+#: app/navigations.php:22 header.php:31
+msgid "Primary Navigation"
+msgstr "Navigation principale"
+
+#: app/navigations.php:24 header.php:71
+msgid "Handheld Navigation"
+msgstr "Navigation mobile"
+
+#: app/navigations.php:26 footer.php:16
+msgid "Footer Navigation"
+msgstr "Menu pied-de-page"
+
+#: app/sidebars.php:23
+msgid "Default Sidebar"
+msgstr "Barre latérale par défaut"
+
+#: app/sidebars.php:25
+msgid "Add widgets here to appear in your site."
+msgstr "Ajoutez ici les widgets qui doivent apparaître sur votre site."
+
+#: base.php:52
+msgid "Please enable JavaScript to view this website."
+msgstr "Veuillez activer JavaScript pour afficher correctement cette page."
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Une pensée sur &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s commentaire sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réactions sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:34
+#, php-format
+msgid "Site designed by %1$s"
+msgstr "Site conçu par %1$s"
+
+#. translators: %s: Failed included file.
+#: functions.php:54
+#, php-format
+msgctxt "genese"
+msgid "Error locating %s for inclusion"
+msgstr "Erreur lors de l’inclusion de  %s"
+
+#: header.php:16
+msgid "Worldwide delivery 🌍"
+msgstr "Livraison dans le monde entier 🌍"
+
+#: header.php:24
+msgid "Hamburger"
+msgstr "Hamburger"
+
+#. translators: %s: search query.
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: single.php:18
+msgid "Previous:"
+msgstr "Précédent:"
+
+#: single.php:19
+msgid "Next:"
+msgstr "Suivant :"
+
+#: template-parts/content-homepage.php:38 template-parts/content-page.php:31
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que ce que vous cherchez est introuvable. Essayez une autre "
+"recherche."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+"Poursuivre la lecture <span class=\"screen-reader-text”> \"%s\" </span>"
+
+#. Theme Name of the plugin/theme
+msgid "Genese"
+msgstr "Genese"
+
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
+
+#. Description of the plugin/theme
+msgid "Wordpress theme for MR AFROPOLITAN SHOP"
+msgstr "Thème Wordpress pour MR AFROPOLITAN SHOP"
+
+#. Author of the plugin/theme
+msgid "FlexyLa Studio"
+msgstr "FlexyLa Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://www.flexyla.com"
+msgstr "https://www.flexyla.com"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Page d'accueil"

@@ -1,0 +1,53 @@
+.hero {
+	position: relative;
+	height: 100vh;
+	color: white;
+
+	.has-announcement & {
+		height: calc(100vh - 1.875rem);
+		// height: -webkit-fill-available;
+	}
+
+	&__media {
+		background: #eee;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		pointer-events: none;
+	}
+
+	&__content {
+		@extend .container;
+		width: 100%;
+		height: 100%;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		text-align: center;
+	}
+
+	&__title {
+		margin: 0;
+		padding: 0;
+		font-family: 'Plaid-XL', sans-serif;
+		font-size: 2.25rem;
+		line-height: 1.1;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		@media (min-width: $screen-medium-up) {
+			font-size: 3.125rem;
+			line-height: 1.2;
+		}
+	}
+
+	&__video {
+		width: 100%;
+    height: 100%;
+    object-fit: cover;
+	}
+}

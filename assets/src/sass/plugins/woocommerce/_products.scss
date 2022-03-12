@@ -1,0 +1,130 @@
+ul.products {
+	margin: 0;
+	padding: 0;
+
+	li.product {
+		list-style: none;
+		position: relative;
+		margin-bottom: 2em;
+
+		img {
+			display: block;
+		}
+
+		.button {
+			display: block;
+		}
+	}
+}
+
+@media screen and (min-width: 48em) {
+
+	ul.products {
+
+		li.product {
+
+			@include column-width(3);
+			float: left;
+			margin-right: $columns__margin;
+
+			&.first {
+				clear: both;
+			}
+
+			&.last {
+				margin-right: 0;
+			}
+		}
+	}
+
+	ul.products.columns-1 {
+
+		li.product {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	@for $i from 2 through 6 {
+
+		ul.products.columns-#{$i} {
+
+			li.product {
+
+				@include column-width( $i );
+			}
+
+		}
+	}
+}
+
+.wc-block-grid__product .wc-block-grid__product-image,
+.wc-block-grid__product .wc-block-grid__product-title,
+.wc-block-grid__product .wc-block-grid__product-add-to-cart,
+.wc-block-grid__product .wc-block-grid__product-price,
+.wc-block-grid__product .wc-block-grid__product-rating,
+.woocommerce-loop-product__title {
+	margin: 0;
+	padding: 0 !important;
+}
+
+/**
+ * Title
+ */
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3,
+.edit-post-visual-editor .editor-block-list__block .wc-block-grid__product-title,
+.editor-styles-wrapper .wc-block-grid__product-title,
+.wc-block-grid__product-title {
+	margin-top: 1rem !important;
+	font-size: .625rem;
+	font-family: Plaid-XL, sans-serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/**
+ * Price
+ */
+.wc-block-grid__product .wc-block-grid__product-price,
+.woocommerce ul.products li.product .price {
+	margin-top: .2rem;
+	margin-bottom: 1.2rem;
+	color: #707070;
+	font-size: .75rem;
+	text-align: center;
+
+	ins {
+		font-weight: 400;
+	}
+}
+
+/**
+ * Onsale
+ */
+.woocommerce span.onsale,
+.wc-block-grid__product-onsale {
+	position: absolute;
+	top: 1rem !important;
+	left: 1rem !important;
+	right: auto !important;
+	display: inline-block;
+	width: auto;
+	margin: 0 !important;
+	padding: .45rem 1rem;
+	min-height: inherit;
+
+	font-size: .7rem;
+	font-weight: 600;
+	line-height: 1;
+	color: #43454b;
+	background: #fff;
+	border: 1px solid #43454b;
+	border-radius: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 9;
+}

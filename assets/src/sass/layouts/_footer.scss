@@ -1,0 +1,15 @@
+.footer {
+	clear: both;
+	margin-top: 7rem;
+	background-color: #fafafb;
+
+	&__inner {
+		@extend .container;
+		padding-top: 5rem;
+		padding-bottom: 4rem;
+	}
+
+	&__info {
+		font-size: .75rem;
+	}
+}

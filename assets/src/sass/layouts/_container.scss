@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: $screen-small-up) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media (min-width: $screen-large-up) {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+}

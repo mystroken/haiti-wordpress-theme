@@ -1,0 +1,33 @@
+.added_to_cart,
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-size: .5625rem !important;
+	font-family: Plaid-XL,sans-serif !important;
+	letter-spacing: .1em !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	border: none !important;
+	border-color: $color__border-button;
+	border-radius: 0 !important;
+	background: #000 !important;
+	color: white !important;
+	line-height: 1 !important;
+	padding: 1.2em 2em !important;
+	text-align: center !important;
+	transition: .2s;
+	vertical-align: middle;
+
+	&:hover {
+		background: rgba(#000, .7) !important;
+	}
+
+	&:active,
+	&:focus {
+		// border-color: $color__border-button-focus;
+		outline: none;
+	}
+}
