@@ -104,3 +104,26 @@ function genese_init_acf() {
 	}
 }
 
+add_action('acf/init', 'genese_acf_init_block_types');
+/**
+ * Add custom ACF blocks type
+ * @link https://www.advancedcustomfields.com/resources/blocks/
+ */
+function genese_acf_init_block_types() {
+
+	// Check function exists.
+	if( function_exists('acf_register_block_type') ) {
+
+		// register a testimonial block.
+		acf_register_block_type(array(
+			'name'              => 'heading-hero',
+			'title'             => __('Heading Hero'),
+			'description'       => __('A custom testimonial block.'),
+			'render_template'   => 'template-parts/blocks/heading/hero.php',
+			'category'          => 'formatting',
+			'icon'              => 'admin-comments',
+			'keywords'          => array( 'header', 'title', 'hero' ),
+		));
+	}
+}
+
