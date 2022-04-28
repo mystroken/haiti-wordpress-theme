@@ -121,7 +121,14 @@ function genese_acf_init_block_types() {
 			'description'       => __('A custom heading block for HH website theme.'),
 			'render_template'   => get_stylesheet_directory() . '/template-parts/blocks/custom-heading.php',
 			'category'          => 'layout',
-			'icon'              => 'text',
+			'icon'              => array(
+				// Specifying a background color to appear with the icon e.g.: in the inserter.
+				'background' => 'blue',
+				// Specifying a color for the icon (optional: if not set, a readable color will be automatically defined)
+				// 'foreground' => '#fff',
+				// Specifying a dashicon for the block
+				'src' => 'text',
+			),
 			'keywords'          => array( 'custom', 'heading', 'header', 'hero', 'title' ),
 		));
 	}

@@ -19,15 +19,42 @@
             "collapsed": "field_622db2a85272d",
             "min": 0,
             "max": 0,
-            "layout": "block",
+            "layout": "row",
             "button_label": "",
             "sub_fields": [
                 {
+                    "key": "field_626aeef3e40e7",
+                    "label": "Type",
+                    "name": "type",
+                    "type": "select",
+                    "instructions": "Select the type of the row's text.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "show_in_graphql": 1,
+                    "choices": {
+                        "title": "title",
+                        "subtitle": "subtitle",
+                        "caption": "caption"
+                    },
+                    "default_value": "title",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
                     "key": "field_622db2a85272d",
-                    "label": "Row's Text",
-                    "name": "custom-heading-row-text",
+                    "label": "Text",
+                    "name": "content",
                     "type": "wysiwyg",
-                    "instructions": "Use the editor in order to format the text",
+                    "instructions": "Use the editor in order to format the row's text.",
                     "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -67,5 +94,5 @@
     "graphql_field_name": "block_custom_heading",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1651174921
+    "modified": 1651175362
 }
