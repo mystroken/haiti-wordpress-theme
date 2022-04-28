@@ -116,13 +116,13 @@ function genese_acf_init_block_types() {
 
 		// register a testimonial block.
 		acf_register_block_type(array(
-			'name'              => 'heading-hero',
-			'title'             => __('Heading Hero'),
-			'description'       => __('A custom testimonial block.'),
-			'render_template'   => 'template-parts/blocks/heading/hero.php',
-			'category'          => 'formatting',
-			'icon'              => 'admin-comments',
-			'keywords'          => array( 'header', 'title', 'hero' ),
+			'name'              => 'haiti-custom-heading',
+			'title'             => __('Haiti Custom Heading', 'genese'),
+			'description'       => __('A custom heading block for HH website theme.'),
+			'render_template'   => get_stylesheet_directory() . '/template-parts/blocks/custom-heading.php',
+			'category'          => 'layout',
+			'icon'              => 'text',
+			'keywords'          => array( 'custom', 'heading', 'header', 'hero', 'title' ),
 		));
 	}
 }

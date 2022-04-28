@@ -24,9 +24,9 @@
 				?>
 		</nav>
 		<div class="footer__info">
-			Copyright &copy; <span itemprop="copyrightYear">2020</span>
+			Copyright &copy; <span itemprop="copyrightYear">2022</span>
 			<span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">
-				<span itemprop="name">MR AFROPOLITAN</span>
+				<span itemprop="name">THE HISTORY of HAITI</span>
 			</span>
 			<span class="sep"> - </span>
 			<?php
